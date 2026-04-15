@@ -1,0 +1,168 @@
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+.eggs/
+wheels/
+share/python-wheels/
+*.whl
+
+# ============================================================
+# Virtual Environments
+# ============================================================
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+.virtualenv/
+
+# ============================================================
+# Django
+# ============================================================
+*.log
+*.pot
+*.pyc
+db.sqlite3
+db.sqlite3-journal
+local_settings.py
+/staticfiles/
+/static/
+/media/
+/collected_static/
+
+# Django migrations (uncomment if you don't want to track them)
+# */migrations/*.py
+# !*/migrations/__init__.py
+
+# ============================================================
+# Environment Variables & Secrets
+# ============================================================
+.env
+.env.*
+!.env.example
+secrets.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# ============================================================
+# Docker
+# ============================================================
+.docker/
+docker-compose.override.yml
+
+# ============================================================
+# IDE & Editors
+# ============================================================
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim / Neovim
+*.swp
+*.swo
+*~
+
+# Emacs
+*#
+.#*
+
+# ============================================================
+# OS Generated Files
+# ============================================================
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ============================================================
+# Testing & Coverage
+# ============================================================
+.coverage
+.coverage.*
+coverage.xml
+coverage/
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+nosetests.xml
+test-results/
+test_output.txt
+test_results.txt
+*.cover
+*.py,cover
+
+# ============================================================
+# Jupyter Notebooks
+# ============================================================
+.ipynb_checkpoints/
+*.ipynb
+
+# ============================================================
+# Celery
+# ============================================================
+celerybeat-schedule
+celerybeat.pid
+
+# ============================================================
+# Miscellaneous
+# ============================================================
+*.bak
+*.tmp
+*.temp
+*.orig
+*.resolved
+.cache/
+.sass-cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
