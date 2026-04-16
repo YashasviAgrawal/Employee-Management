@@ -55,6 +55,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    "whitenoise.middleware.WhiteNoiseMiddleware",
     'django.contrib.sessions.middleware.SessionMiddleware',
     'corsheaders.middleware.CorsMiddleware',       # CORS — must be before CommonMiddleware
     'django.middleware.common.CommonMiddleware',
@@ -222,3 +223,5 @@ SPECTACULAR_SETTINGS = {
     'VERSION': '2.0.0',
     'SERVE_INCLUDE_SCHEMA': False,
 }
+STATIC_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+STATIC_URL = "/static/"
