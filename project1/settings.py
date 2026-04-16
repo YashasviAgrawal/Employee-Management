@@ -16,6 +16,9 @@ from datetime import timedelta
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+CSRF_TRUSTED_ORIGINS = [
+    "https://employee-management-production-cd02.up.railway.app",
+]
 
 
 # Quick-start development settings - unsuitable for production
